@@ -10,7 +10,8 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <body>
         <Nav/>
-        {children}</body>
+        {children}
+      </body>
     </html>
   )
 }
