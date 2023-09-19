@@ -6,17 +6,22 @@ const Nav = () => {
   return (
     <nav>
         <Link
-            href=""
+            href="/"
         >
             Tableau de bord
         </Link>
         <Link
-            href=""
+            href="/to-do-list"
+        >
+            To-do-list
+        </Link>
+        <Link
+            href="/new-application"
         >
             Nouvelle candidature
         </Link>
         <Link
-            href=""
+            href="/offers"
         >
             Offres
         </Link>
