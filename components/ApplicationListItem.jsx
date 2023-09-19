@@ -1,18 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
 
-const ApplicationListItem = () => {
+const ApplicationListItem = ({title, company, city, contract, status}) => {
   return (
     
         <Link
             href="/application-detail"
         >
             <li>
-            <h3>Titre de l'offre</h3>
-            <div>Entreprise</div>
-            <div>Ville</div>
-            <div>Type de contrat</div>
-            <div>Statut de la candidature</div>
+            <h3>{title}</h3>
+            <div>{company}</div>
+            <div>{city}</div>
+            <div>{contract}</div>
+            <div>{status}</div>
             </li>
         </Link>
     
